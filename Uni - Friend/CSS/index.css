@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+
+/* this file contains CSS for the home page*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans',sans-serif;
+}
+
+.container1{
+    padding-left: 25px;
+    margin: 45px;
+}
+
+.banner {
+    background: lightblue;
+    padding-top: 3%;
+}
+
+.con{
+    margin-left: 10%;
+    margin-right: 8%;
+}
+
+.promo-title{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 100px;
+    color:#004aad;
+}
+
+.col-md-6  .text{
+    font-weight: 90px;
+    font-size: 20px;
+}
+
+.col-md-6 h4{
+    color:black;
+    padding-left: 35px;
+    font-weight: bold;
+    animation: blink 3s linear infinite;
+}
+
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity:1;}
+}
+
+.butt{
+    height:50px;
+    margin: 30px;
+    font-weight: bold ;
+    border: 3px solid darkblue;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius:20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ 
+.butt:hover{
+       background-color: white;
+       color: #031e36;
+       transform: scale(1.1);
+       transition: 0.5s;
+}
+
+.bottom-img{
+    width:100%;
+}
+
+/*about section CSS starts here*/
+.containerx{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about{
+    background-color: white;
+}
+
+.justify-content-center{
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    width:100%;
+}
+
+/*about section CSS ends here*/
+
+
+/*faq section CSS starts here*/
+.event1{
+    background-color: #1ea4da;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-top: 2%;
+    text-align: center;
+    color: #031e36;
+    font-family: 'Open sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.dibba{
+    background-color: white;
+}
+
+.dibba .upcoming img{
+    margin-left: 500px;
+    height: 500px;
+}
+
+#faqs
+{
+    background-color: white;
+}
+
+.text-left{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/*FAQ section CSS starts here*/
+
+.bucket{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.accordion {
+	background-color: whitesmoke;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+  
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+	background-color: #ccc;
+}
+  
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+	padding: 0 18px;
+	background-color: white;
+	display: none;
+	overflow: hidden;
+}
+
+.panel p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+/*FAQ section CSS ends here*/
+
