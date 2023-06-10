@@ -1,0 +1,83 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day :)",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "studyquery",
+        "patterns": [
+          "What type of study material is available here?",
+          "Do you have PYQs?",
+          "Are subject notes available here?"
+        ],
+        "responses": [
+          "We have Notes and PYQs on the website.",
+          "Yes, we do! We offer Notes and PYQs here."
+        ]
+      },
+      {
+        "tag": "credit",
+        "patterns": [
+          "What are the credits of MLE?",
+          "What are the credits of WAD?",
+          "What are the credits of DE?"
+        ],
+        "responses": [
+          "Please checkout the syllabus details on GTU website.",
+          "It would be better if you visit the GTU official website for latest information."
+        ]
+      },
+      {
+        "tag": "materialquery",
+        "patterns": [
+          "Is the available material enough?",
+          "Can I pass my exams using the given material?",
+          "Did someone review this study material?"
+        ],
+        "responses": [
+          "Yes, absolutely!",
+          "You can fully trust the material. It is curated carefully by the knowledgeable faculties of NLJ."
+        ]
+      },
+      {
+        "tag": "reachout",
+        "patterns": [
+          "How can I reach out to the developer team?",
+          "Can I add some more material?",
+          "Can I contribute to this project?"
+        ],
+        "responses": [
+          "Check out the Contact Us section.",
+          "Head over to the ContactUS page."
+        ]
+      }
+    ]
+  }
