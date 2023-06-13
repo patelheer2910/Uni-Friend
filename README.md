@@ -13,7 +13,7 @@ A one step solution to help you ace your exam.
 
 # How we built it? 👷‍♂️👷‍♀️
 - Tech Stack: <br>
-    Fronted = HTML5, CSS3, JS, Bootstrap, Swipper.JS, JQuery, AJAX Google fonts APIs and Netlify for hosting. <br>
+    Frontend = HTML5, CSS3, JS, Bootstrap, Swipper.JS, JQuery, AJAX Google fonts APIs and Netlify for hosting. <br>
     Chatbot = Python, Deep Learning, Jinja templates, Flask, NLTK Libraries, PyTorch
 - References: Stack Overflow, W3Schools
 
